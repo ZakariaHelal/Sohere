@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+*.log
+
+# .NET
+*.dll
+*.exe
+!**/lib/*.dll
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Publish
+**/publish/
+PublishProfiles/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temp
+*.tmp
+*.temp
+~$*
+
+# Database local files (keep scripts, ignore live mdf/ldf if any)
+*.mdf
+*.ldf
+*.bak
+
+# Secrets - uncomment if you store local settings with secrets
+# appsettings.Development.json
+# App.config.local

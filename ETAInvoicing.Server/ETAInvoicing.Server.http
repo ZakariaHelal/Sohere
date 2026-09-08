@@ -1,0 +1,6 @@
+@ETAInvoicing.Server_HostAddress = http://localhost:5236
+
+GET {{ETAInvoicing.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
